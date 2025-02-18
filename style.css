@@ -1,0 +1,55 @@
+/* CSS Document */
+body{
+	background-color:#000000;
+	color:#FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.t1{
+	background-color:#C4ECFF;
+	color: #996600;
+}
+.t2{
+	background-color:#FFFFFF;
+	color: #996600;
+}
+.header{
+	background-image:url(images/background.png);
+}
+.infotext {font-size: 10px}
+.heading {
+	font-size: 36px;
+	color: #FAC488;
+	background-color:#FFFFFF;
+}
+a:link {
+	color: #F78F1E;
+	text-decoration: none;
+}
+a:visited {
+	color: #F78F1E;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#total{
+background-color:#FFFF00;
+color:#FF0000;
+font-size:36px;
+}
+#footer{
+	background-color:#39536C;
+	color:#CCCCCC;
+	font:"Courier New", Courier, monospace;
+	font-size:12px;
+	text-align:center;
+	height:60px;
+}
