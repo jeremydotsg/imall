@@ -4,8 +4,8 @@ $dbtype = mysql;
 include("dbselect.php");
 $db = new database;//start the class
 $db->sql_connect(localhost,root);//establish connection to db server
-$db->sql_select_db(lwqdb1);//connect to db
-$sql = "SELECT * FROM lwq_blog";//sql query
+$db->sql_select_db();//connect to db
+$sql = "SELECT * FROM ";//sql query
 $result = $db->sql_query($sql);//query
 //print"ASSOCIATIVE ARRAY/NUM ARRAY RESULT";
 //ASSOC for ASSOCIATIVE ARRAY
